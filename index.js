@@ -19,7 +19,7 @@ const totalScore = document.querySelector(".total-score");
 const restartBtn = document.querySelector(".restart");
 
 let questions = [],
-    score = 1,
+    score = 0,
     currentQuestion = 0,
     time = 30,
     timer;
