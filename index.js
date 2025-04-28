@@ -21,7 +21,7 @@ const restartBtn = document.querySelector(".restart");
 let questions = [],
     score = 0,
     currentQuestion = 0,
-    time = 60,
+    time = 30,
     timer;
 
 // Update progress bar and text
